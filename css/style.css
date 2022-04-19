@@ -25,6 +25,9 @@ img {
     width: 100%;
 }
 
+section {
+    margin-bottom: 100px;
+}
 /*-----------------
     TYPOGRAPHY
 -----------------*/
@@ -123,6 +126,19 @@ ul {
 .new-games img {
     border-radius: 1em;
 }
+
+/*-----------------
+    BANNER PS PLUS
+-----------------*/
+.psplus {
+    background-color: grey;
+}
+
+.psplus-logo {
+    max-width: 300px;
+}
+
+
 
 /*-----------------
     RESPONSIVE
