@@ -64,7 +64,7 @@ button {
 
 nav ul li a{
     display: block;
-    margin: 0 14px;
+    /* margin: 0 14px; */
 }
 
 ul {
