@@ -6,6 +6,22 @@
 }
 
 /*-----------------
+    COMMONS
+-----------------*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/*-----------------
     TYPOGRAPHY
 -----------------*/
 body {
@@ -42,6 +58,33 @@ button {
     font-size: 2em;
 }
 
+.header-bottom nav {
+    display: none;
+}
+
+nav ul li a{
+    display: block;
+    margin: 0 14px;
+}
+
+ul {
+    margin: 0 20px;
+    padding: 0;
+}
+
+
+
 /*-----------------
     RESPONSIVE
 -----------------*/
+@media screen and (min-width: 1400px) {
+
+    .header-bottom nav {
+        display: block;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+    
+}
