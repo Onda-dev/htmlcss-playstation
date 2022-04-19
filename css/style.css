@@ -21,6 +21,10 @@ li {
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
+
 /*-----------------
     TYPOGRAPHY
 -----------------*/
@@ -47,6 +51,10 @@ button {
 
 .sony-logo {
     max-height: 14px;
+}
+
+.ps-logo {
+    width: 60px;
 }
 
 .header-bottom {
@@ -99,7 +107,7 @@ ul {
 .hero-featured-img {
     display: block;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 
