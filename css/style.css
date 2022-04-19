@@ -1,6 +1,47 @@
 /*-----------------
+    DEBUG
+-----------------*/
+.header-bottom {
+    background-color: violet;
+}
+
+/*-----------------
     TYPOGRAPHY
 -----------------*/
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/*-----------------
+    BUTTONS
+-----------------*/
+button {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+/*-----------------
+    HEADER
+-----------------*/
+.header-top {
+    background-color: black;
+    padding: 8px 14px;
+}
+
+.sony-logo {
+    max-height: 14px;
+}
+
+.header-bottom {
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.hamburger-menu {
+    font-size: 2em;
+}
+
+/*-----------------
+    RESPONSIVE
+-----------------*/
