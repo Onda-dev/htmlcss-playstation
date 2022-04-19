@@ -33,7 +33,7 @@ body {
 -----------------*/
 button {
     border: none;
-    background-color: transparent;
+    background-color: lightblue;
     color: inherit;
 }
 
@@ -62,16 +62,39 @@ button {
     display: none;
 }
 
-nav ul li a{
-    display: block;
-    /* margin: 0 14px; */
+nav ul li{
+    margin-left: 20px;
 }
 
 ul {
-    margin: 0 20px;
+    margin: 0px;
     padding: 0;
 }
 
+.search-button img{
+    height: 20px;
+}
+
+/*-----------------
+    HERO
+-----------------*/
+.hero {
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 300px;
+}
+
+.hero-text-box {
+    background-color: aquamarine;
+
+}
+
+.hero img {
+    height: 40px;
+}
 
 
 /*-----------------
