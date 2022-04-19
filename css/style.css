@@ -92,12 +92,7 @@ ul {
     background-position: center;
     background-size: cover;
     color: white;
-    padding-top: 300px;
-}
-
-.hero-text-box {
-    background-color: aquamarine;
-
+    padding-top: 260px;
 }
 
 .hero_container img {
@@ -110,6 +105,17 @@ ul {
     border-radius: 1em;
 }
 
+/*-----------------
+    FEATURED GAME
+-----------------*/
+.featured_game_container {
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 260px;
+}
 
 
 
