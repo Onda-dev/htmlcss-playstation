@@ -132,13 +132,32 @@ ul {
 -----------------*/
 .psplus {
     background-color: grey;
+    padding: 40px;
 }
 
 .psplus-logo {
     max-width: 300px;
 }
 
+.col-md-6.psplus-featuredgame-cover {
+    display: none;
+}
 
+/*-----------------
+    BANNER PS NOW
+-----------------*/
+.psnow {
+    background-color: lightskyblue;
+    padding: 40px;
+}
+
+.psnow-logo {
+    max-width: 300px;
+}
+
+.col-md-6.psplus-featuredgame-cover {
+    display: none;
+}
 
 /*-----------------
     RESPONSIVE
@@ -153,4 +172,24 @@ ul {
         display: none;
     }
     
+}
+
+@media screen and (min-width: 768px) {
+
+    .col-md-6.psplus-featuredgame-cover {
+        display: block;
+    }
+
+    .psplus {
+        padding: 0;
+    }
+
+    .col-md-6.psplus-featuredgame-cover {
+        display: block;
+    }
+
+    .psnow {
+        padding: 0;
+    }
+
 }
