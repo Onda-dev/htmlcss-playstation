@@ -1,9 +1,9 @@
 /*-----------------
     DEBUG
 -----------------*/
-.header-bottom {
+/* .header-bottom {
     background-color: violet;
-}
+} */
 
 /*-----------------
     COMMONS
@@ -78,7 +78,7 @@ ul {
 /*-----------------
     HERO
 -----------------*/
-.hero {
+.hero_container {
     height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -92,9 +92,17 @@ ul {
 
 }
 
-.hero img {
+.hero_container img {
     height: 40px;
 }
+
+.hero-featured-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 
 
 /*-----------------
