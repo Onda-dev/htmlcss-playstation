@@ -25,23 +25,119 @@ img {
     width: 100%;
 }
 
-section {
+.section-margin-l {
+    margin-bottom: 120px;
+}
+
+.section-margin-m {
+    margin-bottom: 80px;
+}
+
+.section-margin-s {
+    margin-bottom: 40px;
+}
+
+/* section {
     margin-bottom: 140px;
-}
-/*-----------------
-    TYPOGRAPHY
------------------*/
-body {
-    font-family: 'Roboto', sans-serif;
-}
+} */
 
 /*-----------------
     BUTTONS
 -----------------*/
 button {
     border: none;
-    background-color: lightblue;
     color: inherit;
+    border-radius: 30px;
+    padding: 10px 14px;
+}
+
+/*-----------------
+    COLORS
+-----------------*/
+.first-bg-color {
+    background-color: #2d64e6;
+}
+
+.second-bg-color {
+    background-color: #cd3d0f;
+}
+
+.third-bg-color {
+    background-color: #1f1f1f;
+}
+
+.white-bg-color {
+    background-color: white;
+}
+
+.lightgrey-bg-color {
+    background-color: #d9dadc;
+}
+
+.first-color {
+    color: #2d64e6;
+}
+
+.second-color {
+    color: #cd3d0f;
+}
+
+.third-color {
+    color: #1f1f1f;
+}
+
+.white-color {
+    color: white;
+}
+
+.black-color {
+    color: black;
+}
+
+.grey-color {
+    color: #727272;
+}
+
+/*-----------------
+    TYPOGRAPHY
+-----------------*/
+/* COMMONS */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+header {
+    font-size: 1.1em;
+}
+
+/* HERO */
+.hero h1 {
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 1.1em;
+}
+
+/* OVERVIEW PS5/PS4 */
+.overview-title h3 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.overview-title h1, .overview-content h2{
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+.overview-title h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.overview-content h3 {
+    font-size: 1.3em;
+    font-weight: 400;
 }
 
 /*-----------------
@@ -74,7 +170,7 @@ button {
 }
 
 nav ul li{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 ul {
@@ -95,7 +191,7 @@ ul {
     background-position: center;
     background-size: cover;
     color: white;
-    padding-top: 260px;
+    padding-top: 240px;
 }
 
 .hero_container img {
@@ -109,6 +205,13 @@ ul {
 }
 
 /*-----------------
+    OVERVIEW
+-----------------*/
+.accessories-row img{
+    max-width: 120px;
+}
+
+/*-----------------
     FEATURED GAME
 -----------------*/
 .featured_game_container {
@@ -117,9 +220,19 @@ ul {
     background-position: center;
     background-size: cover;
     color: white;
-    padding-top: 200px;
 }
 
+.featured_game_container img {
+    width: 220px;
+}
+
+.featured-game h1 {
+    font-weight: 400;
+}
+
+.featured-game p {
+    font-size: 1.1em;
+}
 /*-----------------
     NEW GAMES
 -----------------*/
@@ -131,7 +244,7 @@ ul {
     BANNER PS PLUS
 -----------------*/
 .psplus {
-    background-color: grey;
+    background-color: #bebcbb;
     padding: 40px;
 }
 
@@ -147,7 +260,7 @@ ul {
     BANNER PS NOW
 -----------------*/
 .psnow {
-    background-color: lightskyblue;
+    background-color: #161c3b;
     padding: 40px;
 }
 
@@ -163,8 +276,8 @@ ul {
     FOOTER
 -----------------*/
 footer {
-    background-color: pink;
     color: white;
+    background-color: #00439c;
     padding-top: 80px;
     padding-bottom: 100px;
 }
@@ -174,9 +287,16 @@ footer {
 }
 
 .footer-bottom-logo {
-    width: 200px;
+    width: 140px;
 }
 
+.globe-icon {
+    width: 20px;
+}
+
+footer nav {
+    line-height: 2.4em;
+}
 
 /*-----------------
     RESPONSIVE
