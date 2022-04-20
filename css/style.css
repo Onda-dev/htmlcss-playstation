@@ -99,7 +99,7 @@ ul {
 }
 
 .hero_container img {
-    height: 40px;
+    width: 300px;
 }
 
 .hero-featured-img {
@@ -158,6 +158,11 @@ ul {
 .col-md-6.psplus-featuredgame-cover {
     display: none;
 }
+
+/*-----------------
+    FOOTER
+-----------------*/
+
 
 /*-----------------
     RESPONSIVE
