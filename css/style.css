@@ -162,6 +162,20 @@ ul {
 /*-----------------
     FOOTER
 -----------------*/
+footer {
+    background-color: pink;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    width: 90px;
+}
+
+.footer-bottom-logo {
+    width: 200px;
+}
 
 
 /*-----------------
