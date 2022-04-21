@@ -49,6 +49,7 @@ button {
     color: inherit;
     border-radius: 30px;
     padding: 10px 14px;
+    font-size: 1.1em;
 }
 
 /*-----------------
@@ -119,13 +120,13 @@ header {
     font-size: 1.1em;
 }
 
-/* OVERVIEW PS5/PS4 */
+/* PANORAMICA PS5/PS4 */
 .overview-title h3 {
     font-size: 1em;
     font-weight: 500;
 }
 
-.overview-title h1, .overview-content h2{
+.overview-title h1, .overview-content h2, .overview-content h4{
     font-size: 2.8em;
     font-weight: 400;
 }
@@ -138,6 +139,61 @@ header {
 .overview-content h3 {
     font-size: 1.3em;
     font-weight: 400;
+}
+
+.overview-ps5 .accessories-row .text-center {
+    font-size: 1.1em;
+}
+
+.overview-title p {
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+.overview-content p {
+    font-size: 1.4em;
+}
+
+/* GRIGLIA NUOVI GIOCHI */
+.new-games h1 {
+    font-weight: 400;
+}
+
+.new-games h2 {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.new-games h4 {
+    font-size: 1.1em;
+}
+
+/* BANNER PS PLUS/ PS NOW */
+.psplus p, .psnow p {
+    font-size: 1.1em;
+}
+
+/* SCONTI PS STORE */
+.sales h1 {
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+.sales h3 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+/* LOGHI SOCIAL */
+.social h3 {
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+/* FOOTER */
+footer {
+    font-weight: 500;
 }
 
 /*-----------------
@@ -208,7 +264,7 @@ ul {
     OVERVIEW
 -----------------*/
 .accessories-row img{
-    max-width: 120px;
+    max-width: 100px;
 }
 
 /*-----------------
