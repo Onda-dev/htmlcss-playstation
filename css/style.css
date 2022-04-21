@@ -37,20 +37,26 @@ img {
     margin-bottom: 40px;
 }
 
-/* section {
-    margin-bottom: 140px;
-} */
-
 /*-----------------
     BUTTONS
 -----------------*/
 button {
     border: none;
     color: inherit;
-    border-radius: 30px;
-    padding: 10px 14px;
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 8px 20px;
     font-size: 1.1em;
 }
+
+.login-button {
+    padding: 3px 20px;
+}
+
+.login-button:hover {
+    background-color: #727272;
+}
+
 
 /*-----------------
     COLORS
@@ -108,7 +114,7 @@ body {
 }
 /* HEADER */
 header {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 /* HERO */
@@ -213,8 +219,8 @@ footer {
 }
 
 .header-bottom {
-    padding-top: 12px;
-    padding-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .hamburger-menu {
@@ -226,7 +232,8 @@ footer {
 }
 
 nav ul li{
-    margin-left: 40px;
+    margin-left: 50px;
+    position: relative;
 }
 
 ul {
@@ -236,6 +243,26 @@ ul {
 
 .search-button img{
     height: 20px;
+}
+
+/* HOVER */
+header .chevron, .chevron-hover {
+    width: 11px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+header nav ul li:hover {
+    color: #0070d1;
+}
+
+.chevron-hover {
+    display: inline-block;
+}
+
+header nav ul li:hover .chevron {
+    display: none;
 }
 
 /*-----------------
@@ -258,17 +285,41 @@ ul {
     display: block;
     width: 100%;
     border-radius: 1em;
+    border: 3px solid white;
+}
+
+/* HOVER */
+.hero-featured-img:hover {
+    outline: 3px solid #0070d1;
 }
 
 /*-----------------
-    OVERVIEW
+    PANORAMICA PS5
 -----------------*/
-.accessories-row img{
+.accessories-box img{
     max-width: 100px;
 }
 
+.accessories-box img {
+    filter: opacity(0.7);
+}
+
+.accessories-box:hover {
+    border: 3px solid #0070d1;
+    border-radius: 1rem;
+}
+
+.accessories-box:hover img {
+    filter: opacity(1);
+}
+
+.accessories-box {
+    padding: 0 4px 6px 4px;
+    width: 100%;
+    height: 200px;
+}
 /*-----------------
-    FEATURED GAME
+    GIOCO IN EVIDENZA
 -----------------*/
 .featured_game_container {
     height: 600px;
@@ -289,6 +340,7 @@ ul {
 .featured-game p {
     font-size: 1.1em;
 }
+
 /*-----------------
     NEW GAMES
 -----------------*/
@@ -301,7 +353,7 @@ ul {
 -----------------*/
 .psplus {
     background-color: #bebcbb;
-    padding: 40px;
+    padding: 20px;
 }
 
 .psplus-logo {
@@ -311,6 +363,7 @@ ul {
 .col-md-6.psplus-featuredgame-cover {
     display: none;
 }
+
 
 /*-----------------
     BANNER PS NOW
@@ -326,6 +379,19 @@ ul {
 
 .col-md-6.psplus-featuredgame-cover {
     display: none;
+}
+
+/*-----------------
+    SOCIAL
+-----------------*/
+.social img {
+    border-radius: 2rem;
+}
+
+/* HOVER */
+.social img:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 /*-----------------
@@ -376,7 +442,7 @@ footer nav {
     }
 
     .psplus {
-        padding: 0;
+        padding: 20;
     }
 
     .col-md-6.psplus-featuredgame-cover {
